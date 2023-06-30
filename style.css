@@ -1,0 +1,156 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .topics {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+
+  .sub-header {
+    color: darkgreen;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .image-container img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .dsa-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .dsa-container img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  
+  h1 {
+    background-color:darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  h2 {
+    background-color: aquamarine;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: dimgray;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: black;
+  }
+  
+  main {
+    padding: 5px;
+    margin: 0;
+    background-color: lightgray;
+  }
+
+  main > h2, i, .arti {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .arti {
+    background: white;
+  }
+
+  .arti > p, pre{
+    margin: 6px;
+  }
+  
+  .dsa-img{
+    float: right;
+    width: 900px;
+    height: 380px;
+  }
+  
+  .array-img {
+    width: 460px;
+    height: 150px;
+  }
+
+  .linkedlist-img {
+    width: 450px;
+    height: 90px;
+  }
+
+  .stack-img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .queue-img {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tree-img {
+    float: right;
+    width: 360px;
+    height: 260px;
+    padding-right: 0;
+  }
+
+  .graph-img {
+    float: left;
+    width: 280px;
+    height: 200px;
+  }
+
+  .Backtracking-img {
+    float: right;
+    width: 300px;
+    height: 250px;
+  }
+  
+  footer {
+    font-size: 20px;
+    background-color:lightpink;
+    color:crimson;
+    padding: 10px;
+    text-align: center;
+  }
+  
