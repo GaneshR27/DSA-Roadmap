@@ -129,9 +129,9 @@ body {
 
   .tree-img {
     float: right;
-    width: 360px;
-    height: 260px;
-    padding-right: 0;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
   }
 
   .graph-img {
